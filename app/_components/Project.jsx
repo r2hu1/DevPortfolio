@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Project({ title, alt, image, description, url }) {
     return (
         <div className="relative border bg-background dark:bg-secondary max-w-fit rounded-md grid place-content-center">
-            <img className="w-full max-w-[340px] h-full m-1 rounded-md aspect-video" src={image} alt={alt} />
+            <img className="w-full max-w-[340px] md:max-w-[300px] h-full m-1 rounded-md aspect-video" src={image} alt={alt} />
             <div className="absolute bottom-[74px] left-3 grid gap-2">
                 <span className="text-xs dark:bg-secondary bg-background p-2 px-3 rounded">{alt}</span>
             </div>
