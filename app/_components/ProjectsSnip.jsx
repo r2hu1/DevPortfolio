@@ -72,7 +72,7 @@ export default function ProjectsSnip() {
             title:"Cart.JS",
             alt:"module",
             image:"https://raw.githubusercontent.com/r2hu1/s2lls/main/src/cartjs.png",
-            url:"https://github.com/r2hu1/cartjs"
+            url:"https://github.com/r2hu1/cart.js"
         }
     ];
 
