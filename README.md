@@ -4,6 +4,8 @@ DevPortfolio is a website built with Next.js that helps developers showcase thei
 
 # Preview
 ![Preview Image](https://i.postimg.cc/X7xQFTHN/Screenshot-2024-01-10-232418.png)
+<br/>
+<br/>
 ![Preview Image](https://i.postimg.cc/JznKQPvN/Screenshot-2024-01-10-232441.png)
 
 ## Getting Started
