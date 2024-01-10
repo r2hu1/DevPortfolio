@@ -68,6 +68,12 @@ export default function ProjectsSnip() {
             image: "https://raw.githubusercontent.com/r2hu1/s2lls/main/src/Screenshot%202023-12-05%20205430.png",
             src: "https://pay.rahul.eu.org"
         },
+        {
+            title:"Cart.JS",
+            alt:"module",
+            image:"https://raw.githubusercontent.com/r2hu1/s2lls/main/src/cartjs.png",
+            url:"https://github.com/r2hu1/cartjs"
+        }
     ];
 
     return (
