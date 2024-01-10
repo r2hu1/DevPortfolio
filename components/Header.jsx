@@ -14,11 +14,11 @@ import { ModeToggle } from "./ModeToggle";
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center py-6 px-8 md:px-20 lg:px-32">
+        <header className="flex justify-between items-center py-6 px-7 md:px-20 lg:px-32">
             <div>
                 <Logo />
             </div>
-            <div className="flex gap-3 items-center justify-center">
+            <div className="flex gap-2 items-center justify-center">
                 <ul className="md:flex gap-4 text-sm mr-5 hidden">
                     <li className="hover:underline underline-offset-4 hover:text-primary"><Link href="/">About</Link></li>
                     <li className="hover:underline underline-offset-4 hover:text-primary"><Link href="/">Skills</Link></li>
