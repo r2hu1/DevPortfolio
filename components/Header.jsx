@@ -14,7 +14,7 @@ import { ModeToggle } from "./ModeToggle";
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center py-6 px-7 md:px-20 lg:px-32">
+        <header className="flex justify-between items-center py-5 px-7 md:px-20 lg:px-32">
             <div>
                 <Logo />
             </div>
@@ -39,7 +39,7 @@ export default function Header() {
                 </DropdownMenu>
 
                 <Button asChild>
-                    <Link href="/">Contact Me</Link>
+                    <Link href="/contact">Contact Me</Link>
                 </Button>
                 <ModeToggle />
             </div>
