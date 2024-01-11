@@ -100,7 +100,6 @@ export default function ProjectsSnip() {
         for (let i = 0; i < projects.length; i++) {
             if (e.target.innerText == projects[i].cate) {
                 filters.push(projects[i]);
-                console.log(filters);
             }
         }
     };
