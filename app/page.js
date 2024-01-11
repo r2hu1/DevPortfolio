@@ -13,14 +13,14 @@ export default function Home() {
       
       <div className="text-center mb-0 mt-7">
         <h1 className="text-xl font-bold">Skills<span className="text-primary">.</span></h1>
-        <p className='text-xs'>Some of my skills i learnt in my journey of <br /> self though coding.<span className="text-primary">.</span></p>
+        <p className='text-xs'>Some of my skills i learnt in my journey of <br /> self though coding<span className="text-primary">.</span></p>
       </div>
       
       <Skills />
       
       <div className="text-center mb-5">
         <h1 className="text-xl font-bold">Projects<span className="text-primary">.</span></h1>
-        <p className='text-xs'>Some of my projects i built, click view all <br /> for all projects.<span className="text-primary">.</span></p>
+        <p className='text-xs'>Some of my projects i built, click view all <br /> for all projects<span className="text-primary">.</span></p>
       </div>
       
       <div className='flex gap-2 flex-wrap items-center justify-center'>
