@@ -11,10 +11,10 @@ export default function Home() {
     <main className='mb-20'>
       <Hero />
       
-      {/* <div className="text-center mb-1">
+      <div className="text-center mb-5">
         <h1 className="text-xl font-bold">Skills<span className="text-primary">.</span></h1>
-        <p className='text-xs'>Some of my skills, i learnt in my journey of <br /> self thought coding<span className="text-primary">.</span></p>
-      </div> */}
+        <p className='text-xs'>Some of my skills i learnt in my journey of <br /> self though coding.<span className="text-primary">.</span></p>
+      </div>
       
       <Skills />
       
