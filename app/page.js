@@ -5,6 +5,11 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <div>
+        <div>
+          
+        </div>
+      </div>
       <ProjectsSnip/>
     </main>
   )
