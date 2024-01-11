@@ -12,7 +12,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 
 export default function Skills() {
     return (
-        <div className="py-10 -mt-5 mb-10 px-6">
+        <div className="py-10 -mt-5 mb-10 px-5">
             <div className="flex gap-3 flex-wrap items-center justify-center rounded-md max-w-3xl mx-auto">
                 <div className="h-24 w-24 grid place-items-center rounded-md border hover:bg-secondary transition cursor-pointer hover:scale-95"><TbBrandNextjs className="h-10 w-10" /></div>
                 <div className="h-24 w-24 grid place-items-center rounded-md border hover:bg-secondary transition cursor-pointer hover:scale-95"><SiJavascript className="h-10 w-10" /></div>
