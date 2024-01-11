@@ -31,7 +31,7 @@ export default function ProjectsSnip() {
             alt: "landing page",
             image: "https://raw.githubusercontent.com/r2hu1/s2lls/main/src/Screenshot%202023-12-23%20144356.png",
             url: "https://nike-landing-page-smoky.vercel.app/",
-            cate: "react"
+            cate: "reactjs"
         },
         {
             title: "Bytes Studio",
@@ -66,7 +66,7 @@ export default function ProjectsSnip() {
             alt: "excalidraw clone",
             image: "https://raw.githubusercontent.com/r2hu1/s2lls/main/src/Screenshot%202023-12-05%20204746.png",
             url: "https://draw-it-orcin.vercel.app/",
-            cate: "react"
+            cate: "reactjs"
         },
         {
             title: "Image Hosting",
@@ -108,7 +108,7 @@ export default function ProjectsSnip() {
         <div className="md:px-20 lg:px-32 px-5">
             <div className="flex gap-2 mb-6 px-6 items-center justify-center">
                 <Button onClick={handleFilter} variant={cate != "nextjs" ? "secondary" : ""} size="sm" className="rounded-full text-xs">nextjs</Button>
-                <Button onClick={handleFilter} variant={cate != "react" ? "secondary" : ""} size="sm" className="rounded-full text-xs">react</Button>
+                <Button onClick={handleFilter} variant={cate != "reactjs" ? "secondary" : ""} size="sm" className="rounded-full text-xs">reactjs</Button>
                 <Button onClick={handleFilter} variant={cate != "html/css" ? "secondary" : ""} size="sm" className="rounded-full text-xs">html/css</Button>
                 <Button onClick={handleFilter} variant={cate != "module" ? "secondary" : ""} size="sm" className="rounded-full text-xs">module</Button>
             </div>

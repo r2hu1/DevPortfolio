@@ -22,7 +22,7 @@ export default function Header() {
                 <ul className="md:flex gap-4 text-sm mr-5 hidden">
                     <li className="hover:underline underline-offset-4 hover:text-primary"><Link href="/">About</Link></li>
                     <li className="hover:underline underline-offset-4 hover:text-primary"><Link href="/">Skills</Link></li>
-                    <li className="hover:underline underline-offset-4 hover:text-primary"><Link href="/">Projects</Link></li>
+                    <li className="hover:underline underline-offset-4 hover:text-primary"><Link href="/projects">Projects</Link></li>
                 </ul>
 
                 <DropdownMenu>
@@ -34,7 +34,7 @@ export default function Header() {
                     <DropdownMenuContent className="ml-[96px]">
                         <Link href="/"><DropdownMenuItem>About</DropdownMenuItem></Link>
                         <Link href="/"><DropdownMenuItem>Skills</DropdownMenuItem></Link>
-                        <Link href="/"><DropdownMenuItem>Projects</DropdownMenuItem></Link>
+                        <Link href="/projects"><DropdownMenuItem>Projects</DropdownMenuItem></Link>
                     </DropdownMenuContent>
                 </DropdownMenu>
 
