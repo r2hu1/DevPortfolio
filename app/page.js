@@ -23,9 +23,11 @@ export default function Home() {
         <p className='text-xs'>Some of my projects i built, click view all <br /> for all projects<span className="text-primary">.</span></p>
       </div>
       
-      <div className='flex gap-2 flex-wrap items-center justify-center'>
-        <Project {...projects[Math.floor(Math.random() * projects.length)]} />
-        <Project {...projects[Math.floor(Math.random() * projects.length)]} />
+      <div className='flex gap-2 flex-wrap items-center justify-center md:px-20 lg:px-32 px-5'>
+        <Project {...projects[0]} />
+        <Project {...projects[1]} />
+        <Project {...projects[2]} />
+        {/* <Project {...projects[3]} /> */}
       </div>
 
       <div className='grid place-content-center mt-10'>
